@@ -1,0 +1,154 @@
+Great question 👌
+Media query web development ka ek sabse important concept hai responsive design ke liye. Chalo simple words me detail se samjhate hain:
+
+1. Media Query kya hai?
+
+👉 Media query ek CSS rule hai jo browser ke screen size ya device properties check karta hai aur uske according alag-alag styles apply karta hai.
+
+Example socho:
+
+Mobile ka screen chhota hota hai → font bada karna hai.
+
+Desktop ka screen bada hota hai → sidebar dikhana hai.
+
+Tablet ka medium screen hota hai → thoda adjust karna hai.
+
+Is sab ke liye media query use hoti hai.
+
+2. Basic Syntax
+@media (condition) {
+   /* CSS rules */
+}
+
+
+Example:
+
+@media (max-width: 768px) {
+   body {
+      background-color: lightblue;
+   }
+}
+
+
+👉 Matlab: Agar screen width 768px ya usse kam hai, tab background blue ho jayega.
+
+3. Media Query Conditions
+
+Media query me sabse zyada use hone wale conditions:
+
+max-width: Jab screen is width se chhoti ya barabar ho.
+
+min-width: Jab screen is width se bari ya barabar ho.
+
+orientation: portrait/landscape: Mobile ko ghuma kar detect karna.
+
+print: Jab page print ho raha ho.
+
+Example:
+
+/* Mobile ke liye (max 600px) */
+@media (max-width: 600px) {
+   p {
+      font-size: 14px;
+   }
+}
+
+/* Tablet ke liye (600px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+   p {
+      font-size: 18px;
+   }
+}
+
+/* Desktop ke liye (1024px se upar) */
+@media (min-width: 1025px) {
+   p {
+      font-size: 22px;
+   }
+}
+
+4. Mobile First vs Desktop First
+
+Media queries likhne ke do tareeqe hote hain:
+
+✅ Mobile First (recommended)
+
+Pehle chhoti screen ke liye CSS likho (default).
+
+Fir min-width use karke badi screen ke liye styles add karo.
+
+Example:
+
+/* Mobile default */
+p {
+   font-size: 14px;
+}
+
+/* Tablet and up */
+@media (min-width: 600px) {
+   p {
+      font-size: 18px;
+   }
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+   p {
+      font-size: 22px;
+   }
+}
+
+❌ Desktop First
+
+Pehle desktop ke liye likho.
+
+Fir max-width use karke chhoti screen ke liye overwrite karo.
+
+Ye approach purani hai, ab zyada use nahi hoti.
+
+5. Real Life Example
+
+Maan lo ek navigation bar hai:
+
+Default (desktop):
+
+nav ul {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+Mobile ke liye (menu icon dikhana hai):
+
+@media (max-width: 768px) {
+   nav ul {
+      display: none;  /* list hide */
+   }
+
+   .menu-icon {
+      display: block; /* burger icon show */
+   }
+}
+
+
+👉 Is tarah tum ek hi website ko mobile, tablet aur desktop sab ke liye fit bana sakte ho.
+
+6. Best Practices
+
+Always mobile-first likho (chhoti screen ke liye default).
+
+Common breakpoints yaad rakho:
+
+Mobile: max-width: 600px
+
+Tablet: 600px – 1024px
+
+Desktop: 1024px+
+
+Height ya fixed pixels se bachna, zyada use %, em, rem.
+
+Har device pe test karo (browser tools me "inspect element" se check kar sakte ho).
+
+👉 Short me:
+Media query = ek tarika jisse hum screen ke size/device ke hisaab se alag-alag CSS likhte hain.
+Ye hi responsive design ka foundation hai.
