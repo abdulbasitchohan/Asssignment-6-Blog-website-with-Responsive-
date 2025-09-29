@@ -1,0 +1,531 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* NAVBAR STYLE */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 20);
+    padding: 20px;
+}
+
+.logo a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebuttons {
+    display: flex;
+}
+
+.sidebuttons ul li {
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sidebuttons a {
+    text-decoration: none;
+    color: black;
+    margin: 0 8px;
+}
+
+/* Hamburger icon */
+.ri-menu-line {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+/* NAVBAR STYLE CLOSE  */
+
+/* MAIN BODY STYLE START  */
+
+
+.img-1 {
+    width: 100%;
+    height: auto;
+
+}
+
+.line {
+    margin: 20px auto;
+    max-width: 640px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.text-box {
+    max-width: 850px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.text-box h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.text-box h3 {
+    text-align: center;
+    font-family: Courier, monospace;
+    font-size: 20px;
+    line-height: 2;
+    max-width: 450px;
+    width: 100%;
+    margin: 50px auto;
+
+
+}
+
+/* section 2 style  */
+.section_2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 640px;
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+.section_2 .dp {
+    display: flex;
+
+}
+
+.section_2 .dp p {
+    margin: 5px 15px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.section_2 .dp img {
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-radius: 50%;
+
+}
+
+#whtsp-icon {
+    display: none;
+}
+
+.section_2 .icon img {
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin: 0px 10px;
+
+}
+
+/* SECTION _3 STYLE START  */
+
+
+.image p {
+    max-width: 481px;
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 16px;
+    margin-bottom: 60px;
+
+}
+
+.text p {
+    max-width: 640px;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.image img {
+    max-width: 854px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.text ul {
+    max-width: 510px;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.text ul li {
+    padding: 10px;
+}
+
+.text h4 {
+    max-width: 640px;
+    width: 100%;
+    font-size: 20px;
+    margin: 60px auto;
+
+}
+
+.text h2 {
+    max-width: 330px;
+    width: 100%;
+    margin: 60px 19%;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SECTION - 6 STYLE START */
+
+.link-buttons {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 678px;
+    width: 100%;
+}
+
+.link-buttons button {
+    max-width: 300px;
+    width: 100%;
+    height: 51px;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 1px black;
+    margin: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    display: none;
+}
+
+h6 {
+    display: none;
+}
+
+.dotted-line {
+    border-bottom: 1px dashed black;
+    max-width: 640px;
+    width: 100%;
+    margin: 20px auto;
+    /* padding-left: 50px; */
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: 500px;
+}
+
+/* SECTION - 7 */
+.dp-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 140px;
+    border-bottom: 3px solid black;
+
+
+}
+
+.dp-2 p {
+    max-width: 543px;
+    width: 100%;
+    margin: 5px 15px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dp-2 img {
+    max-width: 75px;
+    width: 100%;
+    height: 75px;
+    border: none;
+    border-radius: 110px;
+
+}
+
+/* SECTION - 8 STYLE START */
+.heading {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 44px;
+}
+
+
+/* SECTION_4 STYLE START  */
+
+
+.box-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    max-width: 304px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.image-box p {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.form {
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+    margin: 70px auto;
+    padding: 50px;
+    border: 1px solid black;
+    border-top: 12px solid black;
+}
+
+.form p {
+    font-family: arial;
+    max-width: 400px;
+    width: 100%;
+    margin: 10px auto;
+    line-height: 1.5;
+
+}
+
+.form #email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input {
+    margin: 20px 0px;
+    max-width: 270px;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.form #sign {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 100px;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    padding-top: 9px;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* MAIN BODY STYLE CLOSE  */
+
+/* FOOTER STYLE START  */
+
+footer {
+    background-color: black;
+    color: white;
+    height: 500px;
+    margin: 0px;
+
+}
+
+.f-box-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.f-box-1 h4 {
+    margin: 15px;
+    font-size: 20px;
+}
+
+
+/* FOOTER ADVERTISEMENT TEXT FONTS START */
+#no-1 {
+    font-family: arial;
+}
+
+#no-2 {
+    font-family: 'Times New Roman';
+}
+
+#no-3 {
+    font-family: arial black;
+}
+
+#no-4 {
+    font-family: Arial Narrow;
+}
+
+#no-5 {
+    font-family: Impact;
+}
+
+#no-6 {
+    font-family: sans-serif;
+}
+
+#no-7 {
+    font-family: calibri;
+}
+
+#no-8 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+/* FOOTER ADDVERTISMENT TEXT FONTS CLOSE */
+
+
+.f-box-2 {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.f-box-2 p {
+    max-width: 488px;
+    width: 100%;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+
+.links {
+    margin: 40px 10px;
+    text-align: center;
+}
+
+.links ul li {
+    display: inline;
+    list-style: none;
+
+
+}
+
+.links a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    color: rgb(255, 255, 255);
+    margin: 50px 5px;
+
+}
+
+.f-end p {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 178px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+    margin: 5% auto;
+}
+
+
+@media only screen and (min-width:320px) and (max-width : 600px) {
+
+    nav .logo {
+        font-size: 22px;
+    }
+
+    .sidebuttons {
+        display: none;
+    }
+
+    .ri-menu-line {
+        display: block;
+    }
+
+    main {
+        margin: 0px 15px;
+        box-sizing: border-box;
+
+    }
+
+    p {
+        font-size: 2px;
+    }
+
+    .text h2 {
+        margin: 20px auto;
+        margin-bottom: 30px;
+        font-size: 30px;
+
+    }
+
+    .section_2 {
+        flex-direction: column;
+        /* margin: 10px auto; */
+        justify-content: center;
+    }
+
+    .section_2 .icon {
+        margin: 20px auto;
+
+    }
+
+    #whtsp-icon {
+        display: inline;
+    }
+
+    .link-buttons {
+        display: none;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon h4 {
+        display: block;
+    }
+
+    .icon img {
+
+        width: 60px;
+        height: 60px;
+        padding: 18px;
+        border: 1px solid gray;
+        cursor: pointer;
+        margin: 20px 20px;
+
+    }
+
+    h6 {
+        display: block;
+        font-size: 20px;
+    }
+
+
+}
